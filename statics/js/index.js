@@ -4,6 +4,7 @@ window.onload=function(){
 	$(function(){
 		$('#slide,#slide .slide_bg').height($(window).height());
 
+
 		//展开
 		$('.pro_car_list_s').on('click',function(){
 			$('#slide').show();
@@ -37,6 +38,23 @@ window.onload=function(){
 
 	})
 
+	//颜色 适配选择
+	$('.interior_color .interior_list').tap(function(){
+		var _this =$(this);
+		$('.interior_color .interior_list').each(function(){
+			$(this).removeClass('checked_this');
+			$(this).find('em img').attr('src','statics/img/icon_check.gif');
+		})
+		_this.addClass('checked_this');
+		_this.find('em img').attr('src','statics/img/icon_checked.gif');
 
+	});
+
+	$(function(){
+		var a = $(window).height(),b=$('body').height();
+		if(a > b + 100){
+			$('a.btn1').addClass('p_fix').css('bottom','1rem')
+		}
+	})
 
 }

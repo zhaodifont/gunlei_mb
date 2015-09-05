@@ -26,7 +26,17 @@ header .point_left img{display:inline-block;vertical-align:middle;position:relat
 .choice_size_list .right img{width:20%;}
 .choice_size_list:nth-child(1) .left{text-align:left!important;text-indent:1rem;}
 .choice_size_list:nth-child(1) img{width:25%;display:inline-block;vertical-align:middle;}
-a.btn1{width:86.66%;height:3.26rem;line-height:3.26rem;color:#d13030;border:2px #d13030 solid;margin:3rem auto 0;}
+a.btn1{width:86%;height:3.26rem;line-height:3.26rem;border-radius:30px;color:#d13030;border:2px #d13030 solid;left:7%;margin:1rem auto;}
+
+.interior_list{height:4rem;display:table;width:100%;}
+.interior_list div{display:table-cell;width:100%;vertical-align:middle;border-bottom:1px #e8e8e8 solid;}
+.interior_list em{display:inline-block;width:1.233rem;height:1.2333rem;margin:0 1.4rem 0 2.2rem;box-sizing:border-box;vertical-align:middle;}
+.interior_list span,.choice_size_list .left span{width:1.53rem;height:1.53rem;margin:0 1.66rem 0 0;border-radius:50%;background-color:red;vertical-align:middle;}
+.choice_size_list .left span{position:relative;top:-.2rem;margin-right:.5rem;}
+.interior_list font{position:relative;top:.1rem;}
+.appear_color .interior_list span{border-radius:0;}
+.choice_size_list.interior_color .left span{border-radius:0;}
+.choice_size_list.choiced .right{visibility:hidden}
 
 
 
