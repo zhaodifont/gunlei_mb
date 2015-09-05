@@ -15,7 +15,7 @@ window.onload=function(){
 			$('.slide_fix_nav').text($(this).find('.right').text())
 			$('#slide .slide').animate({
 				left:a
-			},500,'ease-out')
+			},300,'ease-out')
 		})
 
 		//收缩
