@@ -1,0 +1,36 @@
+.container{position:relative;width:100%;}
+header{height:2.8rem;line-height:2.8rem;}
+header .point_left{display:block;left:.8rem;width:5%;overflow:hidden;line-height:2.66rem;top:0;font-family:'Microsoft Yahei'}
+header .point_left img{display:inline-block;vertical-align:middle;position:relative;top:-.25rem;}
+
+/*车型*/
+.pro_car_list .pro_car_list_s{width:100%;display:table;height:4rem;border-bottom:1px #e8e8e8 solid;}
+.choice_size_list .left,.choice_size_list .right,.pro_car_list .pro_car_list_s .left,.pro_car_list .pro_car_list_s .right,#slide .slide_list .left,#slide .slide_list .right{display:table-cell;vertical-align:middle;}
+.pro_car_list .pro_car_list_s .left img{display:inline-block;}
+.pro_car_list .pro_car_list_s .left{width:20%;text-align:center;}
+.pro_car_list .pro_car_list_s .right{text-indent:1rem;}
+#slide{left:0;top:0;width:100%;display:none;}
+#slide .slide_bg{background-color:rgba(0,0,0,.6);width:100%;}
+.slide{width:76.66%;left:100%;top:0;bottom:0;overflow:hidden;overflow-y:scroll;}
+.slide_fix_nav{width:100%;background-color:#ececec;height:2rem;line-height:2rem;text-indent:1rem;}
+#slide .slide_list{display:table;width:100%;height:7rem;border-bottom:1px #e8e8e8 solid;}
+#slide .slide_list .left{width:34.2%;text-align:center}
+#slide .slide_list .left img{width:90%;display:inline;}
+#slide .slide_list .right{color:#2d2c2c;font-size:1.1rem;line-height:1.6;box-sizing:border-box;padding-left:1rem;}
+#slide .slide_list .right cite{color:#e3461d;font-size:1.1rem;}
+
+/*采购订单*/
+.choice_size_list{display:table;height:4rem;width:100%;border-bottom:1px #e8e8e8 solid;}
+.choice_size_list .left{width:86.67%;display:table-cell;text-align:center;}
+.choice_size_list .right{display:table-cell;}
+.choice_size_list .right img{width:20%;}
+.choice_size_list:nth-child(1) .left{text-align:left!important;text-indent:1rem;}
+.choice_size_list:nth-child(1) img{width:25%;display:inline-block;vertical-align:middle;}
+a.btn1{width:86.66%;height:3.26rem;line-height:3.26rem;color:#d13030;border:2px #d13030 solid;margin:3rem auto 0;}
+
+
+
+
+
+
+
