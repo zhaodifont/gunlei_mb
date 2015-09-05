@@ -1,15 +1,16 @@
+
+
 window.onload=function(){
 
 	//车型 滑动
 	$(function(){
 		$('#slide,#slide .slide_bg').height($(window).height());
-
-
+		
 		//展开
 		$('.pro_car_list_s').on('click',function(){
 			$('#slide').show();
 			// window.scrollTo(0,0);
-			$('body,html').css({'overflow':'hidden','height':'100%'});
+			// $('body,html').css({'overflow':'hidden','height':'100%'});
 			var a = parseInt($(window).width()*0.24) + 'px';
 			$('.slide_fix_nav').text($(this).find('.right').text())
 			$('#slide .slide').animate({
