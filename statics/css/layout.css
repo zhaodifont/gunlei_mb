@@ -26,6 +26,7 @@ header .point_left img{display:inline-block;vertical-align:middle;position:relat
 .choice_size_list .right img{width:20%;}
 .choice_size_list:nth-child(1) .left{text-align:left!important;text-indent:1rem;}
 .choice_size_list:nth-child(1) img{width:25%;display:inline-block;vertical-align:middle;}
+a.btn1{width:86.66%;height:3.26rem;line-height:3.26rem;color:#d13030;border:2px #d13030 solid;margin:3rem auto 0;}
 
 
 
