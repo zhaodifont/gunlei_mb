@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class='bg_f'>
 <head>
 	<meta charset="UTF-8">
 	<title>采购订单</title>
@@ -15,21 +15,22 @@
 		(function(){var a=document.querySelector('html'),b=a.offsetWidth;a.style.fontSize=Math.ceil(b/750*32) + 'px';})();
 	</script>
 </head>
-<body>
+<body class='bg_f'>
 	<div class="container">
-		<header class='c_3f3f t_c ft36 bg_f'>
+		<header class='c_3f3f t_c ft36'>
 			采购订单
 			<a href="javascript:void(0)"  onclick="window.history.back()" class='p_a point_left'>
 				<img src="statics/img/point_left.jpg" alt="">
 			</a>
 		</header>
 	</div>
-	<div class="emp20"></div>
+	
 
-	<div class="choice_size bg_f ft32 c_8b8989">
+	<h3 class='h3_s1 bg_e8'>车辆需求</h3>
+	<div class="choice_size bg_f ft32 c_8b8989 myorder">
 		<a href="javascript:void(0)" class="choice_size_list">
+			<div class="img"><img src="statics/img/test_car.jpg" alt=""></div>
 			<div class="left c_2d2c2c">
-				<img src="statics/img/test_car.jpg" alt="">
 				福特野马
 			</div>
 			<div class="right">
@@ -37,6 +38,7 @@
 			</div>
 		</a>
 		<a href="config_type.html" class="choice_size_list">
+			<div class="img"></div>
 			<div class="left">
 				请选择配置类型
 			</div>
@@ -45,14 +47,16 @@
 			</div>
 		</a>
 		<a href="config_type.html" class="choice_size_list choiced">
+			<div class="img"></div>
 			<div class="left">
-				高配
+				低配
 			</div>
 			<div class="right">
 				<img src="statics/img/point_right.jpg" alt="">
 			</div>
 		</a>
 		<a href="appear_color.html" class="choice_size_list">
+			<div class="img"></div>
 			<div class="left">
 				请选择外观颜色
 			</div>
@@ -60,16 +64,17 @@
 				<img src="statics/img/point_right.jpg" alt="">
 			</div>
 		</a>
-		<a href="appear_color.html" class="choice_size_list choiced interior_color">
+		<a href="appear_color.html" class="choice_size_list choiced">
+			<div class="img"></div>
 			<div class="left">
-				<span class="dis_ib" style='background-color:#9e1114'></span>
-				<font>宝石红</font>
+				外观 白
 			</div>
 			<div class="right">
 				<img src="statics/img/point_right.jpg" alt="">
 			</div>
 		</a>
 		<a href="interior_color.html" class="choice_size_list">
+			<div class="img"></div>
 			<div class="left">
 				请选择内饰颜色
 			</div>
@@ -78,15 +83,133 @@
 			</div>
 		</a>
 		<a href="interior_color.html" class="choice_size_list choiced">
+			<div class="img"></div>
 			<div class="left">
-				<span class="dis_ib" style='background-color:#222846'></span> 蓝色
+				内饰 黑
 			</div>
 			<div class="right">
 				<img src="statics/img/point_right.jpg" alt="">
 			</div>
 		</a>
 
+		<a href="11" class="choice_size_list">
+			<div class="img"></div>
+			<div class="left">
+				请选择动力总成
+			</div>
+			<div class="right">
+				<img src="statics/img/point_right.jpg" alt="">
+			</div>
+		</a>
+		<a href="11" class="choice_size_list choiced">
+			<div class="img"></div>
+			<div class="left">
+				动力 3.0T+8速双离合
+			</div>
+			<div class="right">
+				<img src="statics/img/point_right.jpg" alt="">
+			</div>
+		</a>
+
+		<a href="11" class="choice_size_list">
+			<div class="img"></div>
+			<div class="left">
+				请选择燃油类型
+			</div>
+			<div class="right">
+				<img src="statics/img/point_right.jpg" alt="">
+			</div>
+		</a>
+		<a href="11" class="choice_size_list choiced">
+			<div class="img"></div>
+			<div class="left">
+				汽油
+			</div>
+			<div class="right">
+				<img src="statics/img/point_right.jpg" alt="">
+			</div>
+		</a>
+
+		<a href="11" class="choice_size_list">
+			<div class="img"></div>
+			<div class="left">
+				请选择价格区间
+			</div>
+			<div class="right">
+				<img src="statics/img/point_right.jpg" alt="">
+			</div>
+		</a>
+		<a href="11" class="choice_size_list choiced">
+			<div class="img"></div>
+			<div class="left">
+				56万 至 65万
+			</div>
+			<div class="right">
+				<img src="statics/img/point_right.jpg" alt="">
+			</div>
+		</a>
+
+		<a href="11" class="choice_size_list">
+			<div class="img"></div>
+			<div class="left">
+				请选择采购数量
+			</div>
+			<div class="right">
+				<img src="statics/img/point_right.jpg" alt="">
+			</div>
+		</a>
+		<a href="11" class="choice_size_list choiced">
+			<div class="img"></div>
+			<div class="left">
+				采购数量 10辆
+			</div>
+			<div class="right">
+				<img src="statics/img/point_right.jpg" alt="">
+			</div>
+		</a>
+
+		<a href="javascript:void(0)" class="choice_size_list" style='height:auto;padding:1rem 0'>
+			<div class="img"></div>
+			<div class="left">
+				特殊要求
+				<input type="text" class='special_require box' placeholder="增加全景天窗">
+			</div>
+			<div class="right">
+				<img src="statics/img/point_right.jpg" alt="">
+			</div>
+		</a>
+
+
 	</div>
+
+	<h3 class='h3_s1 bg_e8'>经销商信息</h3>
+	<div class="user_info">
+		<div class="user_info_list box">
+			<div class="left">企业名称</div>
+			<div class="right">
+				<input type="text" value="" placeholder="请输入经销商注册名称">
+			</div>
+		</div>
+		<div class="user_info_list box">
+			<div class="left">手 机 号</div>
+			<div class="right">
+				<input type="text" value="" placeholder="请输入采购人手机号码">
+			</div>
+		</div>
+		<div class="user_info_list box">
+			<div class="left">姓　　名</div>
+			<div class="right">
+				<input type="text" value="" placeholder="请输入采购人姓名">
+			</div>
+		</div>
+		<div class="user_info_list box">
+			<div class="left">提车城市</div>
+			<div class="right">
+				<input type="text" value="" placeholder="请选择经销商所属城市">
+			</div>
+		</div>
+	</div>
+
 
 	<a href="javascript:void(0)" class="btn1 t_c dis_b">提　交</a>
 

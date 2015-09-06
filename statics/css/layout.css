@@ -24,7 +24,6 @@ header .point_left img{display:inline-block;vertical-align:middle;position:relat
 .choice_size_list .left{width:86.67%;display:table-cell;text-align:center;}
 .choice_size_list .right{display:table-cell;}
 .choice_size_list .right img{width:20%;}
-.choice_size_list:nth-child(1) .left{text-align:left!important;text-indent:1rem;}
 .choice_size_list:nth-child(1) img{width:25%;display:inline-block;vertical-align:middle;}
 a.btn1{width:86%;height:3.26rem;line-height:3.26rem;border-radius:30px;color:#d13030;border:2px #d13030 solid;left:7%;margin:1rem auto;}
 
@@ -36,9 +35,21 @@ a.btn1{width:86%;height:3.26rem;line-height:3.26rem;border-radius:30px;color:#d1
 .interior_list font{position:relative;top:.1rem;}
 .appear_color .interior_list span{border-radius:0;}
 .choice_size_list.interior_color .left span{border-radius:0;}
-.choice_size_list.choiced .right{visibility:hidden}
+.choice_size_list.choiced .left{color:#2d2c2c;}
 
-
+.myorder a .img{width:24%;display:table-cell;vertical-align:middle;text-align:center}
+.myorder a .img img{width:90%;}
+.myorder .left{width:auto;padding-left:.5rem;box-sizing:border-box;text-align:left}
+.myorder .right{width:10.4%;}
+.myorder .choice_size_list .right img{width:25%;}
+.special_require{margin-top:.5rem;height:2.46rem;font-size:.8rem;padding:0 .3rem;border:none;border:1px #a8a8a8 solid;}
+.h3_s1{height:3rem;line-height:3rem;font-size:1.1rem;text-indent:.8rem;color:#2d2c2c;}
+.user_info{padding:.8rem 0;}
+.user_info_list{width:100%;display:table;height:4rem;}
+.user_info_list .left,.user_info_list .right{display:table-cell;vertical-align:middle;text-align:center;}
+.user_info_list .left{width:24%;}
+.user_info_list .right{text-align:left;text-indent: .5rem}
+.user_info_list .right input{height:2.46rem;border:1px #b6b5b5 solid;padding:0 .4rem;width:90%;box-sizing:border-box;}
 
 
 

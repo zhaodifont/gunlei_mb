@@ -8,14 +8,31 @@ window.onload=function(){
 		
 		//展开
 		$('.pro_car_list_s').on('click',function(){
-			$('#slide').show();
-			// window.scrollTo(0,0);
-			// $('body,html').css({'overflow':'hidden','height':'100%'});
-			var a = parseInt($(window).width()*0.24) + 'px';
-			$('.slide_fix_nav').text($(this).find('.right').text())
-			$('#slide .slide').animate({
-				left:a
-			},300,'ease-out')
+			
+			$.ajax({
+				url:'http://www.baidu.com',
+				type:"POST",
+				dateType:'json',
+				date:{},
+				success:function(date){
+					if(date.error){
+
+					}else{
+
+						$('#slide').show();
+						var a = parseInt($(window).width()*0.24) + 'px';
+						$('.slide_fix_nav').text($(this).find('.right').text())
+						$('#slide .slide').animate({
+							left:a
+						},300,'ease-out');
+
+
+					}
+				},
+				error:function(){
+					alert('网络出错~')
+				}
+			})
 		})
 
 		//收缩

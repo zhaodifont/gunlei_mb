@@ -7,7 +7,6 @@ a:focus,input:focus,button:focus{outline:none;}
 img{width:100%;display:block;vertical-align:baseline;}
 input[type='input'],input[type='button'],input[type='submit'],button,option{vertical-align:bottom;-webkit-appearance:none;box-sizing:border-box;}
 input[type="text"], input[type='tel'],input[type="email"], input[type="search"], input[type="password"],textarea {
-	
 	-webkit-appearance:none;
 }
 button{background:none;border:none;}
@@ -28,6 +27,7 @@ table{border-collapse:collapse;border-spacing:0}
 .c_2d2c2c{color:#2d2c2c;}
 
 .bg_f{background-color:#fff;}
+.bg_e8{background-color:#e8e8e8}
 
 .ft36{font-size:1.2rem;}
 .ft32{font-size:1.1rem;}
